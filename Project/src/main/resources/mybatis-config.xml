@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+		PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		
+		<typeAlias alias="BoardDto" type="com.hannara.project.board.BoardDto"/>
+		<typeAlias alias="SearchHandler" type="com.hannara.project.board.SearchHandler"/>
+		<typeAlias alias="MemberDto" type="com.hannara.project.member.MemberDto"/>
+		<typeAlias alias="CommentDto" type="com.hannara.project.comment.CommentDto"/>
+		
+	<!-- 	<typeAlias alias="UploadFileDto" type="com.hannara.project.common.UploadFileDto"/> -->
+		
+	</typeAliases>
+</configuration>
